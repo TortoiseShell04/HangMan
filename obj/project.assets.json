@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/bruh/HangMan/HangMan.csproj",
+      "projectUniqueName": "/home/bruh/HangMan/HangMan/HangMan.csproj",
       "projectName": "HangMan",
-      "projectPath": "/home/bruh/HangMan/HangMan.csproj",
+      "projectPath": "/home/bruh/HangMan/HangMan/HangMan.csproj",
       "packagesPath": "/home/bruh/.nuget/packages/",
-      "outputPath": "/home/bruh/HangMan/obj/",
+      "outputPath": "/home/bruh/HangMan/HangMan/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/bruh/.nuget/NuGet/NuGet.Config"

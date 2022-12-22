@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8lXI5ARSb2rj1R4pa+2dOzy5ut8R+V04o6PgeeHBFTBY561L8/AcGcPxZbbaK9RhX3gx0Gu1im2Enc4a0M62tg==",
+  "dgSpecHash": "0bBKljS1XjcVSLdVh94P3BFfZFK1PwX5q3REcjNeHykSyCk6AFyaX/1Zt3yxjh48gVPmBG/JQI7M5SPVs7CwiQ==",
   "success": true,
-  "projectFilePath": "/home/bruh/HangMan/HangMan.csproj",
+  "projectFilePath": "/home/bruh/HangMan/HangMan/HangMan.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
