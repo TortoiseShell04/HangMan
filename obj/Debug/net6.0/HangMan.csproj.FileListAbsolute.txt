@@ -1,0 +1,15 @@
+/home/bruh/HangMan/obj/Debug/net6.0/HangMan.csproj.AssemblyReference.cache
+/home/bruh/HangMan/obj/Debug/net6.0/HangMan.GeneratedMSBuildEditorConfig.editorconfig
+/home/bruh/HangMan/obj/Debug/net6.0/HangMan.AssemblyInfoInputs.cache
+/home/bruh/HangMan/obj/Debug/net6.0/HangMan.AssemblyInfo.cs
+/home/bruh/HangMan/obj/Debug/net6.0/HangMan.csproj.CoreCompileInputs.cache
+/home/bruh/HangMan/bin/Debug/net6.0/HangMan
+/home/bruh/HangMan/bin/Debug/net6.0/HangMan.deps.json
+/home/bruh/HangMan/bin/Debug/net6.0/HangMan.runtimeconfig.json
+/home/bruh/HangMan/bin/Debug/net6.0/HangMan.dll
+/home/bruh/HangMan/bin/Debug/net6.0/ref/HangMan.dll
+/home/bruh/HangMan/bin/Debug/net6.0/HangMan.pdb
+/home/bruh/HangMan/obj/Debug/net6.0/HangMan.dll
+/home/bruh/HangMan/obj/Debug/net6.0/ref/HangMan.dll
+/home/bruh/HangMan/obj/Debug/net6.0/HangMan.pdb
+/home/bruh/HangMan/obj/Debug/net6.0/HangMan.genruntimeconfig.cache
