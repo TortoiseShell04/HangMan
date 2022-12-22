@@ -26,32 +26,33 @@ namespace App
             StringBuilder strB = new StringBuilder(wordText);
             Console.WriteLine($"{strB}");
             
-while (moveCount > 0){
-            Console.WriteLine($"Enter a letter: ");
-            string guess = Console.ReadLine();
-
-            for (int i = 0; i < wordLength; i++)
+            while (moveCount > 0)
             {
-                if (guess[0] == WordToBeGuessed[i])
+                Console.WriteLine($"Enter a letter: ");
+                string guess = Console.ReadLine();
+
+                for (int i = 0; i < wordLength; i++)
                 {
-                    int index = i;
-                    for (int i1 = 0; i1 < wordLength; i1++)
-                     {
-                        if (index == i1)
+                    if (guess[0] == WordToBeGuessed[i])
+                    {
+                        int index = i;
+                        for (int i1 = 0; i1 < wordLength; i1++)
                         {
-                            strB[index] = WordToBeGuessed[i];
-                        }
+                            if (index == i1)
+                            {
+                                strB[index] = WordToBeGuessed[i];
+                            }
                         
+                        }
+                    }
+                    else if (wordLength - i == 1)
+                    {
+                        moveCount--;
                     }
                 }
-                else if (wordLength - i == 1)
-                {
-                    moveCount--;
-                }
-            }
-            Console.WriteLine($"{strB} \t Moves left: {moveCount}");
+                Console.WriteLine($"{strB} \t Moves left: {moveCount}");
             
-}
+            }
 
             Console.WriteLine(words[num]);
             
