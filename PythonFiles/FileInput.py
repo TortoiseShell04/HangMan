@@ -4,7 +4,7 @@ listArray = list.split(",")
 
 finalstring = ""
 for n in listArray :
-    finalstring += f"\"{n}\","
+    finalstring += f"{n}\n"
 
 f = open("Lists", "w")
 f.write(finalstring)
