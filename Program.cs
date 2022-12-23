@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Text;
 namespace App
 {
@@ -6,13 +7,24 @@ namespace App
     {
         public static void Main(string[] args)
         {
+            string command = @"FileInput.py";
+            var psi = new ProcessStartInfo();
+            psi.FileName = "/usr/bin/python3";
+            psi.Arguments = command;
+            psi.RedirectStandardOutput = true;
+            psi.UseShellExecute = false;
+            psi.CreateNoWindow = true;
+
+            using var process = Process.Start(psi);
+
+            process.WaitForExit();
+
             bool gameIsOn = true;
+            string path = @"Lists.txt";
+            string[] words = File.ReadAllLines(path);
             while (gameIsOn)
             {
                 Random ran = new Random();
-
-                string path = @"PythonFiles/Lists.txt";
-                string[] words = File.ReadAllLines(path);
                 
                 int length = words.Length;
                 int num = ran.Next(length);

@@ -6,6 +6,6 @@ finalstring = ""
 for n in listArray :
     finalstring += f"{n}\n"
 
-f = open("Lists", "w")
+f = open("Lists.txt", "w")
 f.write(finalstring)
 print("Done!")
