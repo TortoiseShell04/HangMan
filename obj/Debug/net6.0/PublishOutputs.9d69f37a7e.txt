@@ -1,0 +1,5 @@
+/home/bruh/HangMan/HangMan/bin/Debug/net6.0/publish/HangMan
+/home/bruh/HangMan/HangMan/bin/Debug/net6.0/publish/HangMan.dll
+/home/bruh/HangMan/HangMan/bin/Debug/net6.0/publish/HangMan.deps.json
+/home/bruh/HangMan/HangMan/bin/Debug/net6.0/publish/HangMan.runtimeconfig.json
+/home/bruh/HangMan/HangMan/bin/Debug/net6.0/publish/HangMan.pdb

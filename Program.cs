@@ -71,12 +71,25 @@ namespace App
             
                 // Entering letter loop
                 while (moveCount > 0)
-                {
+                {   Console.Clear();
+                
+                    Console.WriteLine($"{strB} \t Moves left: {moveCount}");
                     letterFound = false;
                     Console.WriteLine($"Enter a letter: ");
+                    string? guess;
 
-                    // String with null check for player move
-                    string? guess = Console.ReadLine();
+                    try
+                    {
+                        // String with null check for player move
+                        guess = Console.ReadLine();
+                    }
+                    catch (System.Exception)
+                    {
+                        Console.WriteLine($"Invalid Input");
+                        
+                        throw;
+                    }
+                
 
                     // Checking for the letter
                     for (int i = 0; i < wordLength; i++)
@@ -102,7 +115,7 @@ namespace App
                             moveCount--;
                         }
                     }
-                    Console.WriteLine($"{strB} \t Moves left: {moveCount}");
+                    
 
                     // You won??
                     if (strB.ToString() == WordToBeGuessed)
